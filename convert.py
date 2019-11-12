@@ -75,6 +75,8 @@ if changed:
         if dec == 'y':
             break
         print('Wrong input!')
+else:
+    classes = f_classes
 
 # Apply function and rearrange files according to Standard YOLO format.
 for csv in csv_list:
